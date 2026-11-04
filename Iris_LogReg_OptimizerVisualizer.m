@@ -56,21 +56,6 @@ A_max = 30;
 B_min = -30;
 B_max = 30;
 
-% % Zoom on Minima of Sum of Squares Error Loss when -(ax + m)
-% A_min = 9.6;
-% A_max = 9.8;
-% B_min = 0.38;
-% B_max = 0.42;
-% B_min = -0.040;    % '-(a(x - b))'
-% B_max = -0.043;    % '-(a(x - b))'
-% % Zoom on Minima of Binary Cross-Entropy Loss when -(ax + m)
-% A_min = 8.8;
-% A_max = 9.2;
-% B_min = 0.37;
-% B_max = 0.41;
-% B_min = -0.040;  % '-(a(x - b))'
-% B_max = -0.043;  % '-(a(x - b))'
-
 min_x = a_0;
 min_y = b_0;
 min_z = Loss(1);
