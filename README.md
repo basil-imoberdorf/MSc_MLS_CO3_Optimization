@@ -1,7 +1,8 @@
 # MSc MLS – CO3 Optimization: Logistic Regression on Iris
 
-Course project (CO3, Optimization) by Basil Imoberdorf.
-A 1-D logistic regression classifies *Iris versicolor* vs. *Iris virginica* by petal length, and its two parameters (slope `a`, intercept `m`) are fitted with different optimization algorithms. The loss landscape and the optimizer path are plotted.
+Master course project (CO3, Optimization).
+A 1-D logistic regression classifies *Iris versicolor* vs. *Iris virginica* by petal length, and its two parameters (slope `a`, intercept `m`) are fitted with different optimization algorithms. 
+The focus is on building intution for the inner workings of gradient decent and simulated annealing. The loss landscape and the optimizer path are visualized in image and video.
 
 Model: `y_pred = 1 / (1 + exp(-(a*x + m)))`, where `x` is the mean-centred petal length.
 Loss: sum of squared errors (SSE) or log loss (binary cross-entropy).
