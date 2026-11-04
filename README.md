@@ -13,8 +13,7 @@ Loss: sum of squared errors (SSE) or log loss (binary cross-entropy).
 
 | File | Description |
 |---|---|
-| `Iris_LogReg_Optimizer.m` | MATLAB: iterative optimization with live plots of loss landscape, parameter path and model fit (optional video export) |
-| `Iris_LogReg_OptimizerVisualizer.m` | MATLAB: visualization variant of the above |
+| `Iris_LogReg_OptimizerVisualizer.m` | MATLAB: iterative optimization with live plots of loss landscape, parameter path and model fit (optional video export) |
 | `FunLibLogReg.py` | Python function library: SSE loss, gradient descent, simulated annealing, SciPy `minimize` reference, loss-landscape plotting, performance metrics |
 | `Gradient_Descent_LogReg.py` | Python: runs gradient descent with a sigmoid-shaped learning-rate schedule |
 | `Simulated_Annealing_LogReg.py` | Python: runs simulated annealing with sigmoid-shaped step-size and temperature schedules |
